@@ -6,7 +6,7 @@
   <p>
     <a href="https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK.Setup.1.0.0.exe"><strong>Download the Windows installer</strong></a>
     ·
-    <a href="https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK-1.0.0.AppImage"><strong>Linux AppImage</strong></a>
+    <a href="https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK-1.0.0.AppImage"><strong>Linux AppImage (Fedora and other distros)</strong></a>
     ·
     <a href="https://github.com/m-7chicha/wick-writer/releases/latest/download/wick-writer_1.0.0_amd64.deb"><strong>Linux .deb</strong></a>
     ·
@@ -26,12 +26,24 @@ Windows may show a SmartScreen warning because the installer is not code-signed.
 
 ### Linux
 
-Download the [Linux AppImage](https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK-1.0.0.AppImage) or the [Debian/Ubuntu package](https://github.com/m-7chicha/wick-writer/releases/latest/download/wick-writer_1.0.0_amd64.deb).
+#### Debian / Ubuntu
 
-- **AppImage:** Make the downloaded file executable (`chmod +x WICK-1.0.0.AppImage`), then open it.
-- **Debian/Ubuntu:** From the download folder, install it with `sudo apt install ./wick-writer_1.0.0_amd64.deb`.
+Download the [`.deb` package](https://github.com/m-7chicha/wick-writer/releases/latest/download/wick-writer_1.0.0_amd64.deb). From the folder where it was downloaded, install it with:
 
-Both downloads are x64 builds. See [All downloads](https://github.com/m-7chicha/wick-writer/releases/latest) for release details.
+```sh
+sudo apt install ./wick-writer_1.0.0_amd64.deb
+```
+
+#### Fedora and other Linux distributions
+
+There is no native RPM package in this release. Use the [x64 AppImage](https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK-1.0.0.AppImage). From the download folder, run:
+
+```sh
+chmod +x WICK-1.0.0.AppImage
+./WICK-1.0.0.AppImage
+```
+
+If Fedora reports missing FUSE 2 support, install it with `sudo dnf install fuse-libs`. Both Linux downloads are x64 builds. See [All downloads](https://github.com/m-7chicha/wick-writer/releases/latest) for release details.
 
 ## What WICK does
 
