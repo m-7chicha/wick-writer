@@ -1,0 +1,6 @@
+{
+  "name": "WICK",
+  "description": "A calm desktop writing sanctuary for drafting, visual mindstorming, book previewing, and reflective creative momentum.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

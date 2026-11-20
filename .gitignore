@@ -1,0 +1,13 @@
+node_modules/
+.aistudio/
+build/
+dist/
+dev-dist/
+dist-server/
+release/
+data/wick-workspace.json
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example

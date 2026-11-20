@@ -1,0 +1,48 @@
+{
+  "appId": "app.wick.writer",
+  "productName": "WICK",
+  "copyright": "WICK",
+  "directories": {
+    "output": "release",
+    "buildResources": "assets"
+  },
+  "asar": true,
+  "files": [
+    "dist/**/*",
+    "dist-server/**/*",
+    "electron/**/*",
+    "assets/wick-icon.ico",
+    "public/pwa-512x512.png",
+    "build/**/*",
+    "package.json"
+  ],
+  "linux": {
+    "icon": "public/pwa-512x512.png",
+    "category": "Office",
+    "synopsis": "Calm desktop writing sanctuary",
+    "target": [
+      "AppImage",
+      "deb"
+    ]
+  },
+  "win": {
+    "icon": "assets/wick-icon.ico",
+    "target": [
+      "nsis",
+      "portable"
+    ]
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true
+  },
+  "mac": {
+    "icon": "build/icon.png",
+    "category": "public.app-category.productivity",
+    "target": [
+      "dmg"
+    ]
+  }
+}
