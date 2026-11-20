@@ -3,7 +3,10 @@
   "private": true,
   "version": "1.0.0",
   "description": "A calm desktop writing sanctuary for drafting, visual mindstorming, and book studio previewing.",
-  "author": "WICK",
+  "author": {
+    "name": "B-Mouad",
+    "email": "235915188+m-7chicha@users.noreply.github.com"
+  },
   "main": "electron/main.cjs",
   "type": "module",
   "scripts": {
@@ -12,9 +15,9 @@
     "build": "vite build",
     "build:server": "esbuild server.ts --bundle --platform=node --format=esm --packages=external --outfile=dist-server/server.mjs",
     "desktop:build": "npm run build && npm run build:server",
-    "desktop:pack": "npm run desktop:build && electron-builder",
-    "desktop:pack:linux": "npm run desktop:build && electron-builder --linux",
-    "desktop:pack:win": "npm run desktop:build && electron-builder --win",
+    "desktop:pack": "npm run desktop:build && electron-builder --publish never",
+    "desktop:pack:linux": "npm run desktop:build && electron-builder --linux --publish never",
+    "desktop:pack:win": "npm run desktop:build && electron-builder --win --publish never",
     "preview": "vite preview",
     "clean": "node -e \"['dist','dist-server','release','server.js'].forEach(p => require('node:fs').rmSync(p, {recursive:true, force:true}))\"",
     "lint": "tsc --noEmit"

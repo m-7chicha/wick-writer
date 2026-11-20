@@ -18,6 +18,7 @@
   ],
   "linux": {
     "icon": "public/pwa-512x512.png",
+    "maintainer": "B-Mouad <235915188+m-7chicha@users.noreply.github.com>",
     "category": "Office",
     "synopsis": "Calm desktop writing sanctuary",
     "target": [
