@@ -4,7 +4,7 @@
   <p><strong>A calm desktop writing sanctuary.</strong></p>
   <p>Draft documents and books, organize ideas visually, and preview your work in a focused workspace.</p>
   <p>
-    <a href="https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK%20Setup%201.0.0.exe"><strong>Download the Windows installer</strong></a>
+    <a href="https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK.Setup.1.0.0.exe"><strong>Download the Windows installer</strong></a>
     ·
     <a href="https://github.com/m-7chicha/wick-writer/releases/latest">All downloads</a>
   </p>
@@ -14,7 +14,7 @@
 
 ### Windows
 
-1. Download the [WICK Windows installer](https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK%20Setup%201.0.0.exe).
+1. Download the [WICK Windows installer](https://github.com/m-7chicha/wick-writer/releases/latest/download/WICK.Setup.1.0.0.exe).
 2. Open the downloaded `.exe` and follow the setup prompts.
 3. Launch WICK from the Start menu or desktop shortcut.
 
